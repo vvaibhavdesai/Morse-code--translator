@@ -7,7 +7,7 @@
 }
 
 :root {
-    --primary: #a1bb18;
+    --primary: #93C5FD;
     --black: #333333;
     --width-break:600px;
 }
@@ -23,7 +23,7 @@ nav{
 body {
     margin: 0;
     font-family: 'Kalam', cursive;
-    color: #333333;
+    color: #362cac;
 }
 
 main {
