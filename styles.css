@@ -17,8 +17,8 @@ nav{
     background-color:var(--primary);
     text-align:center;
     padding:1rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius:1rem;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius:0.8rem;
 }
 
 body {
@@ -38,12 +38,9 @@ textarea {
     width: 100%;
     min-height: 20vh;
     font-size:large;
-    margin-top: 1rem;
     display: block;
     margin-top: 2rem;
     font-family: inherit;
-    padding: 1rem;
-    border-radius: 1rem;
 }
 
 #btn-translate{
@@ -52,16 +49,13 @@ textarea {
 
 
 #output{
+    box-sizing: border-box;
     border: 1px solid black;
     min-height:10vh;
     max-height:20vh;
     width:100% ;
     margin-top:2rem;
-    padding:1rem;
-    border-radius: 1rem;
     overflow:auto;
-    
-
 }
 
 footer {
@@ -82,7 +76,7 @@ footer p {
 
 button {
     background-color: var(--primary);
-    border: none;
+    border:0.5rem solid;
     margin: 1rem 0rem;
     padding: 1rem 2rem;
     font-family: 'Syne Mono', monospace;
