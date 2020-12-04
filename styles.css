@@ -8,13 +8,14 @@
 }
 
 :root {
-    --primary: #93C5FD;
-    --black: #333333;
+    /* --primary: #93C5FD; */
+    /* --black: #333333; */
+    white:white;
     --width-break:600px;
 }
 
 nav{
-    background-color:var(--primary);
+    /* background-color:var(--primary); */
     text-align:center;
     padding:1rem;
     border-bottom-left-radius: 0.8rem;
@@ -22,9 +23,12 @@ nav{
 }
 
 body {
+    background-image:url(images/british-library-GQ5ELi84owE-unsplash.jpg);
     margin: 0;
     font-family: 'Syne Mono', monospace;
-    color: #362cac;
+    font-weight: bold;
+    font-size: large;
+    color: white;
 }
 
 main {
@@ -41,16 +45,19 @@ textarea {
     display: block;
     margin-top: 2rem;
     font-family: inherit;
+    background-color: transparent;
+    color:white;
 }
 
 #btn-translate{
     font-family:'Syne Mono', monospace;
+    color:white;
 }
 
 
 #output{
     box-sizing: border-box;
-    border: 1px solid black;
+    border:5px solid #eae7e7;
     min-height:10vh;
     max-height:20vh;
     width:100% ;
@@ -58,12 +65,13 @@ textarea {
     overflow:auto;
 }
 
+
 footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     padding: 1rem;
-    background-color: var(--primary);
+    /* background-color: var(--primary); */
     text-align: center;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -75,7 +83,7 @@ footer p {
 }
 
 button {
-    background-color: var(--primary);
+    background-color: transparent;
     border:0.5rem solid;
     margin: 1rem 0rem;
     padding: 1rem 2rem;
